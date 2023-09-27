@@ -4,3 +4,16 @@
 body {
 background-color: #343D46;
 }
+
+a {
+    color: black;
+}
+
+.navigation-bar a {
+    color: red;
+    font-size: 2rem;
+}
+
+#headshot {
+    /*border-radius: 50%; ASK IF YOU CAN USE THIS IT LOOKS DOPE*/
+}
