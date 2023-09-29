@@ -11,13 +11,13 @@
         <!-- Your menu or Off-canvas content goes here -->
         <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
             <!-- Close button -->
-            <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <button class="close-button" aria-label="Close menu" type="button" id="close-button" data-close>
                 <span aria-hidden="true">&times;</span>
             </button>
 
             <!-- Menu -->
             <ul class="vertical menu">
-                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="index.html" target="_self"><span id="current_page">Home</span></a></li>
                 <li><a href="projects.html" target="_self">Projects</a></li>
                 <li><a href="resume.html" target="_self">Resume</a></li>
                 <li><a href="fun.html" target="_self">Fun Stuff</a></li>
@@ -31,7 +31,7 @@
                 <!-- `grid-x` represents a row -->
                 <div class="grid-x grid-padding-x">
                     <!-- Mobile Menu -->
-                    <button type="button" class="cell show-for-small-only small-2 button" data-toggle="offCanvas">Menu</button>
+                    <button type="button" class="cell show-for-small-only small-1 button clear" data-toggle="offCanvas"><div>__</div><div>__</div><div>__</div></button>
                 </div>
                 
                 <div class="grid-x grid-padding-x">
@@ -39,7 +39,7 @@
                         <!-- Navigation Bar -->
                         <div class="cell hide-for-small-only large-12">
                             <ul class="horizontal menu">
-                                <li><a href="index.html" target="_self">Home</a></li>
+                                <li><a href="index.html" target="_self"><span id="current_page">Home</span></a></li>
                                 <li><a href="projects.html" target="_self">Projects</a></li>
                                 <li><a href="resume.html" target="_self">Resume</a></li>
                                 <li><a href="fun.html" target="_self">Fun Stuff</a></li>
@@ -49,14 +49,17 @@
                 </div>
                 
                 <div class="grid-x grid-padding-x">
-
                     <!-- Headshot Image -->
-                    <div class="cell small-12 large-6">
+                    <div class="container cell small-12 large-6 text-center">
                         <img id="headshot" src="Headshot.jpeg" alt="Ethan Lott's Headshot Photograph">
                     </div>
-                    <div class="cell small-12 large-6">
-                        <h1>Hi, my name is Ethan Lott.</h1>
-                        <p>I am a senior computer science major at the University of Saint Thomas. After school I intend to leverage my programming skills by working as a full-stack software engineer. Originally from Grand Rapids, Michigan and currently based in St. Paul, Minnesota, I hope to relocate to the southeastern coast of the United States upon graduating.</p>
+                    <div class="container cell small-12 large-6 text-center">
+                        <h1 id="introduction">Hi, my name is <span id="name">Ethan Lott</span>.</h1>
+                    </div>
+                    <div class="container cell small-12 large-12">
+                        <p id="intro_paragraph">I am a senior computer science major at the University of Saint Thomas. After school I intend to leverage my programming skills by working as a full-stack 
+                            software engineer. Originally from Grand Rapids, Michigan and currently based in St. Paul, Minnesota, I hope to relocate to the southeastern coast of the United 
+                            States upon graduating.</p>
                     </div>
                 </div>
             </div>
