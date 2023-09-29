@@ -2,18 +2,158 @@
 /* Takes foundation CSS by default, any changes I make will be here */
 
 body {
-background-color: #343D46;
+background-color: #2B2D2F;
 }
 
 a {
-    color: black;
+    color: crimson;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    color: white;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', sans-serif;
+    font-size: 1.5rem;
+}
+
+img {
+    border-style: solid;
+    border-color: crimson;
+    border-width: 1rem;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', sans-serif;
+    font-size: 5rem;
+    color: white;
+}
+
+h6 {
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', sans-serif;
+    margin-bottom: 3rem;
+    font-style: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+.button {
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', sans-serif;
+    font-size: 2rem;
+    margin-left: 6%;
+}
+
+.button div {
+    height: 10%;
+    font-size: 2rem;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: -90%;
+    color: crimson;
 }
 
 .navigation-bar a {
-    color: red;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', sans-serif;
+    color: crimson;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    position: relative;
+}
+
+.off-canvas {
+    background-color: #2B2D2F;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', sans-serif;
     font-size: 2rem;
+}
+
+.project {
+    margin-top: 5rem;
+}
+
+.project-text {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: auto;
 }
 
 #headshot {
     border-radius: 50%;
+    border-style: solid;
+    border-width: 1.5rem;
+    border-color: crimson;
+    object-position: bottom;
+    margin-top: 3rem;
+    margin-bottom: none;
+}
+
+#name {
+    color: crimson;
+    font-weight: bold;
+}
+
+#introduction {
+    font-size: 7rem;
+    margin-top: 6rem;
+}
+
+#intro_paragraph {
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#current_page {
+    color: white;
+}
+
+#close-button {
+    color: white;
+}
+
+#kiosk-text {
+    font-size: 2rem;
+    position: relative;
+}
+
+
+#die-text {
+    margin-bottom: 2rem;
+}
+
+#speed {
+    margin-bottom: 2rem;
+}
+
+#speed-text {
+    margin-bottom: 2rem;
+}
+
+#guitar-text {
+    margin-top: 2rem;
+    font-size: 1.75rem;
+}
+
+#legend {
+    width: auto;
+    height: 30rem;
+}
+
+#legend-text {
+    margin-bottom: 3rem;
+    font-style: bold;
+    font-size: 5rem;
+}
+
+#track-list {
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: crimson;
+    list-style: none;
 }
